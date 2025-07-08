@@ -31,6 +31,10 @@
     color: #474747;
 }
 
+.dark-3 {
+    color: #757575;
+}
+
 .section-title {
     font-size: 35px;
     font-weight: bold;
@@ -177,4 +181,36 @@ main {
     font-size: 18px;
     font-weight: 400;
     color: #757575;
+}
+
+/* resume starts */
+.resume-container {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    color: #474747;
+}
+
+.experience-title {
+    font-size: 25px;
+    color: #474747;
+}
+
+.experience-sub-title {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    color: #757575;
+    font-size: 16px;
+}
+
+hr {
+    margin: 30px 0;
 }
