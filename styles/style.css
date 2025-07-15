@@ -14,6 +14,10 @@
 
 }
 
+.hide {
+    display: none;
+}
+
 /* shared style */
 .txt-align {
     text-align: center;
@@ -246,4 +250,54 @@ textarea {
     margin: 25px 0;
     border-radius: 5px;
     border: none;
+}
+
+/* responsive media query */
+@media screen and (max-width:576px) {
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .secondary-bg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experience-description {
+        text-align: justify;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    textarea {
+        width: calc(100% - 20px);
+    }
+
+    .about {
+        padding: 0px;
+    }
+
+    .about p {
+        text-align: justify;
+        font-size: .75rem;
+        padding: 10px;
+    }
+
+    .about-items {
+        display: flex;
+        flex-direction: column;
+    }
 }
